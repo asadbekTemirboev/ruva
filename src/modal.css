@@ -1,0 +1,58 @@
+#exampleModal1 .modal-content {
+    width: 120%;
+    height: 100%;
+    max-width: 480px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+}
+
+.modal-content img {
+    width: 480px;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+    filter: grayscale(0%) sepia(100%) saturate(0%) blur(0px) invert(10%);
+}
+
+.modal-content form {
+    padding: 40px;
+}
+
+.modal-content form .span2 input,
+.modal-content form .span2 select {
+    width: 100%;
+    margin-top: 10px;
+    padding: 13px;
+    border: none;
+    border-bottom: 1px solid #222;
+}
+
+.modal-content form button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    background-color: #222;
+    color: white;
+    border-radius: 10px;
+}
+
+.modal-content form .span2 p {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+.modal-content form .span1 p {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 0;
+}
+
+.modal-content form .span1 h2 {
+    font-size: 24px;
+    text-align: center;
+
+}
